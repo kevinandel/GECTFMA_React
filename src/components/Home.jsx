@@ -20,7 +20,7 @@ const Home = () => {
           Effortlessly manage and connect with your PTA through our app.
         </p>
         <div className="flex justify-center space-x-4">
-          <a href="assets/gectfma.apk" download="app-release.apk">
+          <a href="assets/gectfma.apk" download="gectfma.apk">
             <button className="px-6 py-3 bg-blue-500 text-white rounded">
               Download Now
             </button>
