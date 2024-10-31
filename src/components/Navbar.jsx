@@ -26,6 +26,17 @@ const Navbar = () => {
           </a>
         </li>
         <li>
+          <a href="#about" className="block p-4">
+            About
+          </a>
+        </li>
+        <li>
+          <a href="#demo" className="block p-4">
+            Demo
+          </a>
+        </li>
+
+        <li>
           <a href="#features" className="block p-4">
             Features
           </a>
@@ -33,11 +44,6 @@ const Navbar = () => {
         <li>
           <a href="#guide" className="block p-4">
             Guide
-          </a>
-        </li>
-        <li>
-          <a href="#about" className="block p-4">
-            About
           </a>
         </li>
         <li>

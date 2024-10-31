@@ -6,15 +6,17 @@ import Features from "./components/Features";
 import Guide from "./components/Guide";
 import About from "./components/About";
 import Support from "./components/Support";
+import Demo from "./components/Demo";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Home />
-      <Features />
-      <Guide />
       <About />
+      <Features />
+      <Demo />
+      <Guide />
       <Support />
     </div>
   );

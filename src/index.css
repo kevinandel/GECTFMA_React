@@ -2,9 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: hsla(56, 100%, 97%, 0.708);
 }
-
-
-
