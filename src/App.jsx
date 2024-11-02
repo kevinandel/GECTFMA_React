@@ -6,7 +6,7 @@ import Features from "./components//features/Features";
 import Guide from "./components/Guide";
 import About from "./components/about/About";
 import Support from "./components/Support";
-import Demo from "./components/Demo";
+import Demo from "./components/demo/Demo";
 
 function App() {
   return (

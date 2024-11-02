@@ -1,0 +1,9 @@
+.demo-section {
+  background-color: #efebe9;
+}
+
+@media (max-width: 1024px) {
+  .demo-text {
+    display: none;
+  }
+}
