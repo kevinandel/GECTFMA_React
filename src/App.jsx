@@ -4,7 +4,7 @@ import Navbar from "./components/navbar/Navbar";
 import Home from "./components/home/Home";
 import Features from "./components/Features";
 import Guide from "./components/Guide";
-import About from "./components/About";
+import About from "./components/about/About";
 import Support from "./components/Support";
 import Demo from "./components/Demo";
 
