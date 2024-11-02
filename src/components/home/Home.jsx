@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <div>
       <section id="home" className="p-16 text-center">
-        <h1 className="text-4xl mb-4">Welcome to GECTFMA App</h1>
+        <h1 className="text-4xl mb-4"><b>Welcome to GECTFMA App</b></h1>
         <p className="mb-8">
           Effortlessly manage your complaints through our app.
         </p>
