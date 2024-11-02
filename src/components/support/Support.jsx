@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
 import emailjs from "emailjs-com";
+import "./Support.css";
 
 const Support = () => {
   const [formData, setFormData] = useState({
@@ -73,7 +74,9 @@ const Support = () => {
 
   return (
     <section id="support" className="p-16 text-center bg-yellow-50">
-      <h2 className="text-3xl mb-4">Support</h2>
+      <h2 className="text-3xl mb-4">
+        <b>Support</b>
+      </h2>
       <p>
         For any inquiries or support, please contact us using the form below:
       </p>
@@ -134,7 +137,7 @@ const Support = () => {
         </div>
         <button
           type="submit"
-          className="px-6 py-3 bg-blue-500 text-white rounded"
+          className="px-6 py-3 text-white rounded submit-button"
         >
           Send Message
         </button>

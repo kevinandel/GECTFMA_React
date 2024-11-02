@@ -1,0 +1,44 @@
+#guide {
+  padding: 30px;
+}
+
+.guideone {
+  background-color: #efebe9;
+}
+
+.guidetwo {
+  border: 2px solid #4e342e;
+}
+
+.step-container {
+  display: flex;
+  align-items: center;
+}
+
+.step-circle-one {
+  display: flex;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: #4e342e;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.step-circle-two {
+  display: flex;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: #efebe9;
+  color: #4e342e;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 25px;
+}

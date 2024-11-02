@@ -8,7 +8,7 @@ const Demo = () => {
       id="demo"
       className="flex flex-col items-center justify-center p-16 text-center demo-section"
     >
-      <h2 className="text-3xl mb-8">Demo Video</h2>
+      <h2 className="text-3xl mb-8"><b>Demo Video</b></h2>
       <div className="flex flex-col lg:flex-row items-center lg:justify-center lg:items-center gap-10">
         <video width="250" controls className="mx-auto lg:mr-8 mb-8 lg:mb-0">
           <source src={demo} type="video/mp4" />
