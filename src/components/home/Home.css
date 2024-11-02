@@ -1,0 +1,26 @@
+.download-button {
+  background-color: #4e342e;
+  width: 150px;
+  height: 80px;
+  text-align: center;
+}
+
+.download-button:hover {
+  background-color: #4e342ee7;
+  width: 150px;
+  height: 80px;
+}
+
+.demo-button {
+  border: 3px solid#4E342E;
+  width: 150px;
+  height: 80px;
+  text-align: center;
+}
+
+.demo-button:hover {
+  border: 3px solid#4E342E;
+  background-color: #4e342e54;
+  width: 150px;
+  height: 80px;
+}

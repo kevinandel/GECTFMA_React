@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import icon from "../assets/icon.png";
+import icon from "../../assets/icon.png";
+import "./Navbar.css"
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -8,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex items-center justify-between p-4 shadow-md bg-yellow-50">
+    <nav className="flex items-center justify-between p-4 shadow-md navbar">
       <div className="logo flex items-center">
         <img className="w-12 h-12 mr-2" src={icon} alt="Logo" />
         <h3 className="text-2xl font-semibold">GECTFMA</h3>
